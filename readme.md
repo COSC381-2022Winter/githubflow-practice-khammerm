@@ -4,6 +4,6 @@ Steps for starting the website:
 3. Install the required dependencies: `python3 -m pip install -r requirements.txt`
 4. Use the environment variables for the flask app: `source env-var.sh`
 5. Initialize the flask database: `flask init-db`
-6. Start the website: `flask run` (or on ec2 `flask run --host 0.0.0.0`)
-7. The default website address is http://127.0.0.1:5000/movies/ (or if using ec2, use your ec2 IP instead.)
+6. Start the website: `flask run` (to make externally visible: `flask run --host 0.0.0.0`)
+7. The default website address is http://127.0.0.1:5000/movies/ (IP will vary if making externally visible, or using EC2 for example.)
 
